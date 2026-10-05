@@ -14,6 +14,12 @@ A PowerShell toolkit built from practical enterprise administration work, now be
 
 It brings together logging, validation, timing, password generation and authenticated string encryption. The modernization introduces explicit module boundaries, behavioral tests and CI workflows for Windows, Linux and macOS. Service-specific operations are maintained separately, with compatibility and migration guidance documented in the repository.
 
+### [LogScanner](https://github.com/PsCustomObject/LogScanner)
+
+A lightweight Go CLI that turns manual searches through PowerShell automation logs into repeatable scans.
+
+Built for the format produced by IT-ToolBox’s `New-LogEntry`, it supports recursive directory scanning, severity and message filters, time ranges, summaries and JSON Lines output. Streaming reads keep memory use independent of total log size, while each match retains its source file and line number. Native CLI checks run in CI on Windows, Linux and macOS, with release builds providing standalone binaries.
+
 ### [PowerSCP](https://github.com/PsCustomObject/PowerScp)
 
 A PowerShell module built around the WinSCP .NET library for file transfers and remote file management.
@@ -35,4 +41,4 @@ The modernized [New-LogEntry](https://github.com/PsCustomObject/PowerShell-Funct
 
 ## Current focus
 
-Maintaining and modernizing these PowerShell projects, developing practical Python automation, and deepening my Linux and AWS skills with Terraform and Ansible.
+Maintaining and modernizing these PowerShell projects, building practical automation tools in Go and Python, and deepening my Linux and AWS skills with Terraform and Ansible.
